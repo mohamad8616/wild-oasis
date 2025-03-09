@@ -34,7 +34,7 @@ function SideNavigation() {
         {navLinks.map((link) => (
           <li key={link.name}>
             <Link
-              className={`py-3 px-5 hover:bg-blue-950 hover:text-blue-100 transition-colors flex items-center gap-4 font-semibold text-blue-200 ${
+              className={`py-3 px-5 hover:bg-blue-800 hover:text-blue-100 transition-colors flex items-center gap-4 font-semibold text-blue-200 ${
                 pathName === link.href ? "bg-blue-600" : ""
               }`}
               href={link.href}
